@@ -1,6 +1,6 @@
 # Django Sentence Splitter API
 
-![alt text](https://media.tenor.com/AKHj5e7v4pcAAAAi/cute.gif)
+![alt text](https://gifdb.com/images/high/serious-cat-typing-hackerman-qgrfg5492xx3dyi5.webp)
 
 Welcome to the Django Sentence Splitter API project. This is a simple RESTful API built on Python Django that provides functionality forallowing you to split sentences on spaces and dashes
 as well as splitting the words based on input line length. Adds a new line after every words. Saves the input in a database for later to be recovered.
