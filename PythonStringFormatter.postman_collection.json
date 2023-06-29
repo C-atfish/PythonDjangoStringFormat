@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "86e4793b-9e51-4332-bd3c-f27402a2f274",
+		"name": "PythonStringFormatter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/format/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"input\": \"I love you super much!! alrightyMytrighty?\",\r\n    \"lineLength\": 4\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/format/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"format",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/all/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/all/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"all",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
