@@ -16,6 +16,6 @@ python manage.py runserver
 
 
 ## Endpoints
-POST /format  requires a json object in body with fields: "input" and "lineLength". Input is a sentence to split, line length is a limit of how long a word can be
-GET /all returns all previous formats you have done
+- [X] POST /format  requires a json object in body with fields: "input" and "lineLength". Input is a sentence to split, line length is a limit of how long a word can be
+- [X] GET /all returns all previous formats you have done
 
